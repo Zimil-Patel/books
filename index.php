@@ -189,7 +189,7 @@
         <!-- Price -->
         <div class="col-md-3">
             <label for="price" class="form-label">Price</label>
-            <input type="number" class="form-control" id="price" placeholder="Price" name="price" value="<?php echo $edit_data['price']; ?>" required>
+            <input type="number" step="0.01" class="form-control" id="price" placeholder="Price" name="price" value="<?php echo $edit_data['price']; ?>" required>
         </div>
 
         <!-- Publish Date -->
