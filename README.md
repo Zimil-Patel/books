@@ -27,11 +27,13 @@ A lightweight CRUD (Create, Read, Update, Delete) application to manage book rec
 
 ## 📸 Screenshots
 
-> 📷 Add screenshots of your UI here.
+![book_page](https://github.com/user-attachments/assets/d66ad0a0-ead9-49cc-9753-39f0bd29affe)
 
 ---
 
 ## 🎥 Demo
 
-> 📹 Add your YouTube demo or Loom walkthrough here.
+https://github.com/user-attachments/assets/ae1d78c1-a7a1-4c94-ba9a-a9e057c6442e
+
+
 
