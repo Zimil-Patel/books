@@ -39,11 +39,11 @@ function insert_book($title, $author, $description, $price, $publish_date, $lang
 }
 
 // UPDATE BOOK RECORD BY ID
-function update_book($id, $title, $author, $description, $price, $publish_date, $language, $pages)
+function update_book($id, $title, $author, $description, $price, $publication_date, $language, $pages)
 {
     global $conn;
     $query = "UPDATE books SET title = '$title', author = '$author', description = '$description', price = '$price',
-            language = '$language', pages = '$pages' WHERE id = $id";
+            publication_date = '$publication_date', language = '$language', pages = '$pages' WHERE id = $id";
     $result = mysqli_query($conn, $query);
     return $result;
 }
